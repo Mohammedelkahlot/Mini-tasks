@@ -24,7 +24,7 @@ if(password.length < 6){
 
   return (
     <div className="min-h-screen flex items-center justify-center">
-      <div className="p-6 rounded-xl shadow-md w-[350px] space-y-4 ">
+      <div className="p-6 rounded-xl shadow-md w-[350px] space-y-4 bg-white">
         <h1 className="text-2xl font-bold ">Password Checker</h1>
         <hr className="text-gray-500"/>
         {/* المدخل الذي يستقبل كلمة السر من المستخدم */}
