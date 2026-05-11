@@ -65,9 +65,9 @@ const Currency = () => {
   };
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-blue-50 to-indigo-100 flex items-center justify-center p-4">
-      <div className="bg-white rounded-2xl shadow-xl p-8 w-full max-w-md">
-        <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Currency Converter</h2>
+    <div >
+      <div className="bg-white rounded-2xl shadow-xl p-8 w-100 max-w-md">
+        <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Currency Converter API</h2>
         
         {loading ? (
           <div className="text-center text-gray-500">Loading...</div>
